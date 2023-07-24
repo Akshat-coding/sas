@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sas/screens/signinscreen.dart';
 
-//import 'package:sas/screens/signinscreen.dart';
 
 
 void main() {
@@ -11,16 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("www"), // Add the Text widget as the title of the AppBar
-        ),
-      ),
+      home: SignInScreen(),
     );
   }
 }
-
- //return MaterialApp(
-     // home://const SignInScreen(),
-    //);
 
